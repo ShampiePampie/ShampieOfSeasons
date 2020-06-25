@@ -1,0 +1,14 @@
+<%- include ("partials/header.ejs") %>
+
+<h1>Bachelors</h1>
+
+<a href="/bachelors/new">Add a new Bachelor</a>
+
+<% bachelors.forEach(function(bachelor){ %>
+    <div>
+        <h4><%= bachelor.name %></h4>
+        <img src="<%= bachelor.image %>"/>
+    </div>
+<% }); %>
+
+<%- include ("partials/footer.ejs") %>
