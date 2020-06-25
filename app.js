@@ -19,6 +19,7 @@ var bachelors = [
     {name: "Gray", image: "https://static.miraheze.org/ranchstorywiki/thumb/0/01/Ch_Gray_%28Story_of_Seasons_FoMT%29.png/74px-Ch_Gray_%28Story_of_Seasons_FoMT%29.png"}
 ]
 
+
 app.get("/", function(req, res){
     res.render("index.ejs");
 });
